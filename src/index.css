@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --subHeaderGray: #7F8487;
+    --backgroundDark: #081422;
+    --subHeaderBlue: #2C74B3;
+    --whiteHeaderText: #32bb62;
+    --iconGroup: #7F8487;
+    --skillDescription: #434242;
+    --skillBackground: #0c2036;
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.sub-header {
+    color: var(--subHeaderBlue);
+}
+.project-sub-header{
+    color: var(--subHeaderGray);
+}
+/* .skill {
+    background-color: var(--skillBackground);
+} */
+.skill-description{
+    color: var(--skillDescription);
+}
+
+.skill-header, .project-header, .contact-header{
+    color: var(--whiteHeaderText);
+}
+
+.icon-group{
+    color: var(--iconGroup);
+}
+
+.banner h1{
+    color: var(--whiteHeaderText);
+}
+.banner-icons button {
+    border: 2px solid #32bb62;
+    color: #32bb62;
+}
